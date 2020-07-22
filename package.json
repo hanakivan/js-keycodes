@@ -1,0 +1,25 @@
+{
+  "name": "@ivanhanak_com/keycodes",
+  "version": "1.0.0",
+  "description": "A simple javascript library helping with dealing with browser inconsistencies of browser Event.code and Event.keyCode implementation for the most used keys.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dist": "babel src/index.js -d dist",
+    "test": "jest",
+    "build": "npm run dist"
+  },
+  "keywords": [
+    "npm",
+    "package"
+  ],
+  "author": "@hanakivan",
+  "repository": "hanakivan/js-keycodes",
+  "license": "https://www.imdb.com/title/tt0097742/",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-flow": "^7.10.4",
+    "jest": "^26.1.0"
+  }
+}
