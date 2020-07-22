@@ -1,6 +1,6 @@
 {
   "name": "@ivanhanak_com/keycodes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple javascript library helping with dealing with browser inconsistencies of browser Event.code and Event.keyCode implementation for the most used keys.",
   "main": "./dist/index.js",
   "scripts": {
